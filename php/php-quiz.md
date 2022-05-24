@@ -1072,3 +1072,12 @@ for($x = 0; $x < $arrlength; $x++){
 - [ ] It saves a lot of work of using getters methods to access the values of objects.
 - [x] It allows you to call an object and see its components as a string.
 - [ ] It is automatically called when you use echo or print.
+
+
+#### Q86. What would this code display after a successful login? What would this code display after a successful login? 
+1 if (isset($_SESSION["username"])) { 2 echo("You are logged in!"); 3 } else { 4 echo("Please try again."); 5 } 1 if (isset($_SESSION["username"])) { 2 echo("You are logged in!"); 3 } else { 4 echo("Please try again."); 5 } 
+
+[ ] The code would display the user's name and the message "You are logged in!"The code would display the user's name and the message "You are logged in!"
+[ ] Nothing would be displayed after a successful login.Nothing would be displayed after a successful login.
+[ ] The code would display the message "Please try again."The code would display the message "Please try again."
+[X] The code would display the message "You are logged in!"
